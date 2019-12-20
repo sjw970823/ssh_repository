@@ -9,7 +9,14 @@ import java.util.List;
 
 @RestController
 public class UserController {
+public class UserController {
+<<<<<<< .mine
 		System.out.println("ls得的的笔记");
+
+=======
+	System.out.println("zs的笔记");
+	
+>>>>>>> .theirs
     //针对数据库用户做增删改查
     @Autowired
     private UserService userService;
