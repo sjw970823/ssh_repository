@@ -9,6 +9,8 @@ import java.util.List;
 
 @RestController
 public class UserController {
+	System.out.println("zs的笔记");
+	
     //针对数据库用户做增删改查
     @Autowired
     private UserService userService;
